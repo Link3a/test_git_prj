@@ -1,3 +1,5 @@
+from math import pi
+
 class Rectangle:
     def __init__(self, a, b):
         self.a = a
@@ -16,11 +18,11 @@ class Rectangle:
         self.b = b
 
     def perimeter(self):
-        self.a * 2 + self.b * 2
+        return self.a * 2 + self.b * 2
 
-from math import pi
+
 class Circle:
-    def _init_ (self, r):
+    def __init__ (self, r):
         self.r = r
     def area(self):
         return pi * (self.r) ** 2
