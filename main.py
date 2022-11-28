@@ -10,5 +10,10 @@ class Rectangle:
     def get_widht(self):
         return self.b
 
+class Circle:
+    def _init_ (self, r):
+        self.r = r
+
 main_rect = Rectangle(5, 4)
 print(main_rect.area())
+main_Circle(2)
